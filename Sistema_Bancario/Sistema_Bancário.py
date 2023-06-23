@@ -1,6 +1,4 @@
 
-
-
 saldo = 0
 LIMTE_SAQUE = 500.00
 quantidade_saque = 0
