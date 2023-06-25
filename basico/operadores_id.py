@@ -6,7 +6,7 @@ curso = nome_curso
 print(nome_curso is curso) 
 print(nome_curso is not curso)
 
-# Operadores de de Associação - se os objetos estao em uma sequencia
+# Operadores de Associação - se os objetos estao em uma sequencia
 frutras = ["maça", "abacate","limao"]
 
 
