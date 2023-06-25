@@ -1,4 +1,4 @@
-
+# Lista é um objeto Imutavel, se mudar a lista em um escopo local muda toda a lista no escopo de fora
 # acessa a os indices atraves do enumerate - retorna o indice e o valor
 carro = ["onix", "gol", "polo"]
 for indice,valor in enumerate(carro):
@@ -33,7 +33,7 @@ numeros.sort(reverse=True)# ordena de forma decrescente
 lista_string =  ["string", "palavra"]
 lista_string.sort(key = lambda x: len(x),reverse=True)# ordena lista_string pelo tamnaho das palavras atraves da função anonima lambda
 print("lista ordenada pelo tamnaho da string: ",lista_string)
-print("tamnaho da lista_string: ",len(lista_string))# retorna o tamhanho da
+print("tamnaho da lista_string: ",len(lista_string))# retorna o tamhanho da string
 
 
 
