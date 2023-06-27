@@ -1,4 +1,4 @@
-# self equivalente ao this, tem que ser declarado no construtor
+# self equivalente ao this,aponta para a instancia da classe, tem que ser declarado no construtor
 # O primerio parametro dos metodos é obrigatorio a ter o self, mesmo com parametro vazios
 class Bicicleta:
     # Construtor
@@ -30,3 +30,4 @@ b1.buzinar() # Bicicleta.buzinar(b1)
 b1.parar()
 b1.correr()
 print(b1)
+
